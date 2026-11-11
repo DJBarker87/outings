@@ -13,7 +13,9 @@ main { max-width: 34rem; margin: 0 auto; padding: 3.5rem 1rem 3rem; }
 h1 { font-size: 1.7rem; line-height: 1.2; margin: 0 0 .6rem; }
 p { margin: 0 0 1rem; }
 .checked { font-weight: 600; }
-a.dl { display: inline-block; margin: .6rem 0 1.6rem; padding: .7rem 1.1rem; border-radius: .4rem; background: var(--btn); color: var(--btn-ink); text-decoration: none; font-weight: 600; }
+p.links { margin: .6rem 0 1.6rem; display: flex; flex-wrap: wrap; gap: .6rem; }
+a.dl { display: inline-block; padding: .7rem 1.1rem; border-radius: .4rem; background: var(--btn); color: var(--btn-ink); border: 1px solid var(--btn); text-decoration: none; font-weight: 600; }
+a.dl.alt { background: transparent; color: var(--ink); border-color: var(--line); }
 small { display: block; color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line); padding-top: 1rem; }
 </style>
 </head>
@@ -22,7 +24,7 @@ small { display: block; color: var(--muted); font-size: .8rem; border-top: 1px s
 <h1>Windsor &amp; Eton restaurant lookup</h1>
 <p>Name and location, allergen evidence and food hygiene rating for 201 food venues in Windsor, Eton and Eton Wick.</p>
 <p class="checked">Checked 11 November 2026</p>
-<a class="dl" href="Windsor_Eton_Restaurant_Lookup.docx">Download the booklet (Word)</a>
+<p class="links"><a class="dl" href="Windsor_Eton_Restaurant_Lookup.pdf">Open the booklet (PDF)</a> <a class="dl alt" href="Windsor_Eton_Restaurant_Lookup.docx">Download as Word</a></p>
 <small>Hygiene ratings from the FSA Food Hygiene Rating Scheme open data. Contains public sector information licensed under the Open Government Licence v3.0.</small>
 </main>
 </body>
